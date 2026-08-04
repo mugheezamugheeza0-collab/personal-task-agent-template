@@ -16,7 +16,7 @@ Central knobs for the agent. Change behaviour here, not scattered through the co
 #   "llama-3.3-70b-versatile"   <- capable, but frequently malforms tool calls
 #                                  when an argument is long. Not recommended here.
 # If this string ever stops working, check the current model list in the Groq docs.
-MODEL = "openai/gpt-oss-120b"
+MODEL = "llama-3.3-70b-versatile"
 
 # The seatbelt. The loop will stop after this many turns no matter what,
 # so a confused agent can never spend money forever. Do NOT remove this.
